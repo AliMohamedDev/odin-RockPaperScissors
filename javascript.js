@@ -74,6 +74,11 @@ function playRound(humanChoice, computerChoice) {
         return "You lose! Rock beats Scissors";
     }
 
+    else {
+        return "Tie! No points to either of you"
+
+    }
+
 
 
 
@@ -89,4 +94,4 @@ const computerSelection = getComputerChoice();
 
 console.log(humanSelection);
 console.log(computerSelection);
-console.log(playRound(humanSelection, humanSelection));
+console.log(playRound(humanSelection, computerSelection));
